@@ -2,7 +2,7 @@
 
 * Студент: [Fktyf Khen](https://up.htmlacademy.ru/htmlcss/24/user/900927).
 * Наставник: [Алексей Вечканов] 
-(https://htmlacademy.ru/profile/id902303).
+(https://htmlacademy.ru/profile/id902303). 
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
