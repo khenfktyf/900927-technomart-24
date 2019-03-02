@@ -1,6 +1,12 @@
-Папка для стилевых файлов.
+body {
+   margin: 0;
+}
+.header-heder {
+  background-color: #293449;
+  color: #ffffff;
+  font-family: Cuprum;
+}  
 
---
 
 Пример структуры файлов:
 
