@@ -38,8 +38,11 @@
                     </p>
                 </div>
                 <div class="data">
-                    <div class="telephone">
-                        <p>+7 (812) 555-05-55</p>
+                    <div class="telephone-container">
+                        <span class="telephone-icon"></span>
+                        <a href="tel:+7(812)555-05-55" class="telephone-link">
+                            +7 (812) 555-05-55
+                        </a>
                     </div>
                     <div class="address">
                         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -51,13 +54,21 @@
                 </div>
                 <nav class="main-navigation">
                     <ul>
-                        <li><a href=#>Главная</a></li>
-                        <li><a href="company.html">Компания</a></li>
-                        <li><a href="catalog.html">Каталог</a></li>
-                        <li><a href="news.html">Новости</a></li>
-                        <li><a href="specialoffers.html">Спецпредложения</a></li>
-                        <li><a href="delivery.html">Доставка</a></li>
-                        <li><a href="contacts.html">Контакты</a></li>
+                        <li>
+                            <a href=# class="main-navigation__link">
+                                Главная
+                            </a>
+                        </li>
+                        <li>
+                            <a href="company.html" class="main-navigation__link">
+                                Компания
+                            </a>
+                        </li>
+                        <li><a href="catalog.html" class="main-navigation__link">Каталог</a></li>
+                        <li><a href="news.html" class="main-navigation__link">Новости</a></li>
+                        <li><a href="specialoffers.html" class="main-navigation__link">Спецпредложения</a></li>
+                        <li><a href="delivery.html" class="main-navigation__link">Доставка</a></li>
+                        <li><a href="contacts.html" class="main-navigation__link">Контакты</a></li>
                     </ul>
                 </nav>
             </div>
@@ -264,7 +275,7 @@
                                 <span>Гарантия</span>
                                 <p>
                                     Если купленный у нас товар поломается или заискрит,<br>
-                                    а также в случае пожара, спровоцированного его вогаранием,
+                                    а также в случае пожара, спровоцированного его вогаранием,<br>
                                     вы всегда можете быть уверены в нашей гарантии. Мы обменяем
                                     сгоревший товар на новый.
                                 </p>
@@ -317,23 +328,18 @@
                         <a class="map js-map" href="img/картинки/4.jpg">
                             <img src="img/картинки/5.jpg" width="300" height="158" alt="google-map">
                         </a>
-                        <div class="modal-map">
-                            <button class="modal-content-close-map" type="button"></button>
-                        </div>
                         <a class="btn js-lesson" href="write-us.html">Заблудились? напишите нам!</a>
-                        <div class="modal-write-us">
+                        <!--<div class="modal-write-us modal-content-show">
                             <button class="modal-content-close-lesson" type="button"></button>
                             <form class="write-us-form" action="#" method="post">
                                 <div class="form-answer">
                                     <label>
                                         <span>Ваше имя:</span><br>
-                                        <input type="text" name="login" placeholder="Представьтесь, пожалуйста" onfocus="placeholder='';"
-                                            onblur="placeholder='Представьтесь, пожалуйста';">
+                                        <input type="text" name="login" placeholder="Имя Фамилия" onfocus="placeholder='';" onblur="placeholder='Имя Фамилия';">
                                     </label>
                                     <label>
                                         <span>Ваш e-mail:</span><br>
-                                        <input type="text" name="email" placeholder="Для отправки ответа" onfocus="placeholder='';"
-                                            onblur="placeholder='Для отправки ответа';">
+                                        <input type="text" name="email" placeholder="email@example.com" onfocus="placeholder='';" onblur="placeholder='email@example.com';">
                                     </label>
                                     <span>Текст письма:</span>
                                     <textarea name="textletter" cols="61" rows="6" placeholder="В свободной форме"
@@ -343,19 +349,18 @@
                                     <button class="btn" type="submit">Отправить</button>
                                 </div>
                             </form>
-                        </div>
+                        </div>-->
                     </div>
                 </section>
             </div>
-        </div>
         </div>
     </main>
     <footer class="main-footer">
         <div class="footer-up">
             <div class="container clearfix">
                 <div class="left-footer-up">
-                    <div class="logo-footer">
-                        <h1><a>Техномарт</a></h1>
+                    <div class="footer-logo">
+                        <h1><a href="/"><img src="img/картинки/logo-name.png" width="138" height="23" alt="логотип Техномарт"></a></h1>
                     </div>
                     <div class="address-footer">
                         <p>
