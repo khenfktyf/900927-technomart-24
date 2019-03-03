@@ -773,7 +773,6 @@ img {
 .service-block {
     position: relative;
     display: inline-block;
-    float: left;
     width: 940px;
     height: 289px;
     margin: 0 auto;
